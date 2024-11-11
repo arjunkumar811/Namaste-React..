@@ -1,9 +1,15 @@
 
 ## parcel (Beast)
-https://parceljs.org/
+- https://parceljs.org/
 
 ## babel (SuperMan)
-https://babeljs.io/docs/
+- https://babeljs.io/docs/
+
+## React
+- https://react.dev/
+
+## vite
+- https://react.dev/
 
 # Extentions 
 1. Better Comments

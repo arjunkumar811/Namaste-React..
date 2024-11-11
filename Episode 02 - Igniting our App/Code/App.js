@@ -1,4 +1,5 @@
 // steps to intial a app 
+
 // 1.npm init -y
 // 2.npm install -D parcel
 // 3.npm install react react-dom

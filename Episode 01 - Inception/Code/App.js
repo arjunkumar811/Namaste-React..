@@ -1,16 +1,3 @@
-// steps to intial a app 
-// 1.npm init -y
-// 2.npm install -D parcel
-// 3.npm install react react-dom
-// 4.npx parcel index.html
-// 5.make the type: "module"
-// 6.remove the main in package.json (Entry point)
-// npx parecl build index.html
-
-
-
-import React from "react";
-import ReactDOM from "react-dom/client";
 
 {/* <div id="parent">
     

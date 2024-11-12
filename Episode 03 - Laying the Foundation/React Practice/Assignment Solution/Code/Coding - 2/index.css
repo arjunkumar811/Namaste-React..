@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-color: rgb(136, 217, 15);
+}
+
+.header{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 30px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo, .user-icon{
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: solid black;
+    outline: none;
+}
+
+
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}

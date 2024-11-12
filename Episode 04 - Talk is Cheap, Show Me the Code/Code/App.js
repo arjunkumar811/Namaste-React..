@@ -22,7 +22,7 @@ import card1 from "./images1/meghana.png"
  * -Address
  * -Contact
  */
-
+//////////////HEADER//////////////////////
 
 const Header = () => {
     return (
@@ -45,8 +45,11 @@ const Header = () => {
 };   
 
 
+///////////BODY////////////////////////                                      
 
 const Body = () => {
+    console.log(resObject);
+    
     return (
     <div className="body">
         <div className="search">
@@ -54,46 +57,65 @@ const Body = () => {
         </div>
 
         <div className="res-container">
-        <Rescontainer/>
-        <Rescontainer/>
-        <Rescontainer/>
-        <Rescontainer/>
-        <Rescontainer/>
-        <Rescontainer/>
-        <Rescontainer/>
-        
+        <Rescards  resData = {resObject}  />
+
+    
         </div>
     </div>
     );
-}
+};
 
-const Rescontainer = () => {
+const Rescards = (props) => {
+    const { resData } = props;
     return (
+      
     <div className="res-Cards">
     
     <img className="card1" src={card1} alt="card1" /> 
-    <h3>Meghana Foods</h3>
-    <h4>North Indian</h4>
-    <h4>4.4 stars</h4>
-    <h4>38 minutes</h4>
+    <h3>{resData.info.name}</h3>
+    <h4>{resData.info.cuisines}</h4>
+    <h4>{resData.info.avgRating}</h4>
+    <h4>{resData.info.deliveryTime}</h4>
+    <h4>{resData.info.areaName}</h4>
 
     </div>
-    )
-}
+    );
+};
 
+
+const resObject = 
+    {
+        info: {
+          id: "10894",
+          name: "Pizza Hut",
+          cloudinaryImageId: "2b4f62d606d1b2bfba9ba9e5386fabb7",
+          locality: "2nd Stage",
+          areaName: "BTM Layout",
+          costForTwo: "₹350 for two",
+          cuisines: ["Pizzas"],
+          avgRating: 4.1,
+          parentId: "721",
+          avgRatingString: "4.1",
+          totalRatingsString: "10K+",
+          deliveryTime: 31,
+        }
+    };
+    
+   
+  
+/////////////FOOTER///////////////
 
 const App = () => { 
-    return (
+return (
 <div className="app">
 < Header />
 <Body />
 
-
 </div>
-    );
+);
 };
 
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App/>);
+root.render(<App/ >);

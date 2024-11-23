@@ -5,3 +5,6 @@
 
 ## Framework vs Library
 - https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/
+
+## Emmet 
+https://docs.emmet.io/cheat-sheet/

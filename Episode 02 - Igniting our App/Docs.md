@@ -25,3 +25,9 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-type
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 - Babel Playground: https://babeljs.io/repl#
 - React without JSX: https://reactjs.org/docs/react-without-jsx.html
+
+
+- [Creating your own create-react-app](https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658)
+- [Parcel Documentation](https://parceljs.org/getting-started/webapp/)
+- [Parcel on Production](https://parceljs.org/features/production/)
+- [BrowsersList](https://browserslist.dev/)

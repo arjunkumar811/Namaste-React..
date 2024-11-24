@@ -31,3 +31,4 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 - [Parcel Documentation](https://parceljs.org/getting-started/webapp/)
 - [Parcel on Production](https://parceljs.org/features/production/)
 - [BrowsersList](https://browserslist.dev/)
+

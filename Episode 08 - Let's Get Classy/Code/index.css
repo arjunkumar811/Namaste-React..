@@ -1,0 +1,119 @@
+.header {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.user-card {
+    padding: 10px;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.shimmer-container{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.shimmer-card{
+    margin-top: 80px;
+    width: 250px;
+    height: 480px;
+    background: linear-gradient(90deg, #d3d3d3 25%, #e8e8e8 50%, #d3d3d3 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 8px;
+}
+
+
+.login {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0px 20px 0px 20px
+    
+}
+
+.filter {
+    padding: 20px;
+    display: flex;
+}
+
+.filter-btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.logo:hover {
+    border: 1px solid lightblue;
+}
+
+.logo{
+    cursor: pointer;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.nav-items > ul {
+    font-size: 23px;
+    display: flex;
+    list-style-type: none;
+
+    
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.body {
+
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.res-Cards {
+    margin: 5px;
+    border-radius: 1%;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: lightblue;
+
+}
+
+.res-Cards:hover {
+    border: 1px solid lightblue;
+    cursor: pointer;
+}
+
+.search {
+    padding: 10px;
+}
+
+.card1 {
+    border-radius: 5%;
+    width: 100%;
+    
+}

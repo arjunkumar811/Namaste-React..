@@ -1,4 +1,4 @@
-# Namaste React 🚀
+# Namaste React 🙏🚀
 # Docs..
 
 ## CDN Link
